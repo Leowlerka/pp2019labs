@@ -11,6 +11,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,10 +29,30 @@
   <component name="ProjectId" id="1UCd3F3ALF4zTQtfCTJYwyUbS5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="telematics.nosova.lab1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\IdeaProjects\pp2019labs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,23 +66,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="lab1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab1.lab1" />
+  <component name="RunManager" selected="JUnit.lab2Test">
+    <configuration name="lab2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pp2019labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telematics.nosova.lab1.*" />
+          <option name="PATTERN" value="telematics.nosova.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab2Test.test_add_remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
+      <option name="METHOD_NAME" value="test_add_remove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab2Test.test_contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
+      <option name="METHOD_NAME" value="test_contains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab2Test.test_get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
+      <option name="METHOD_NAME" value="test_get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab2Test.test_size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
+      <option name="METHOD_NAME" value="test_size" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab1" />
+        <item itemvalue="JUnit.lab2Test" />
+        <item itemvalue="JUnit.lab2Test.test_contains" />
+        <item itemvalue="JUnit.lab2Test.test_get" />
+        <item itemvalue="JUnit.lab2Test.test_add_remove" />
+        <item itemvalue="JUnit.lab2Test.test_size" />
       </list>
     </recent_temporary>
   </component>
@@ -90,5 +183,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab1$lab1.ic" NAME="lab1 Coverage Results" MODIFIED="1575159139296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>telematics.nosova.lab1.*</FILTER>
+    </SUITE>
   </component>
 </project>
