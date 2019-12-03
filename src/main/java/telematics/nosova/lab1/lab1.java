@@ -10,16 +10,17 @@ import java.util.Arrays;
 
 public class lab1 {
     public static void main(String[] args) {
-        TransArr();
+        TransArr("arr.txt");
     }
 
-    public static void TransArr() {
+    public static String[][] TransArr(String file) {
         List<String> lines = null;
         try {
-            lines = Files.readAllLines(Paths.get("arr.txt"));
+            lines = Files.readAllLines(Paths.get(file));
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
+
         int k = 2;
         int n = Integer.parseInt(lines.get(0));
         int m = Integer.parseInt(lines.get(1));
@@ -35,5 +36,6 @@ public class lab1 {
             }
         //System.out.println(Arrays.deepToString(arr));
         System.out.println(Arrays.deepToString(trans));
+        return trans;
     }
 }
