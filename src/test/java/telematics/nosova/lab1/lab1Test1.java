@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
+<<<<<<< HEAD
+=======
+import static org.junit.jupiter.api.Assertions.*;
+
+>>>>>>> master
 class lab1Test1 {
 
     @Test

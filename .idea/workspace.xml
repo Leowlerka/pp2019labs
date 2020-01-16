@@ -12,9 +12,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+<<<<<<< HEAD
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+=======
+>>>>>>> master
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,14 +37,20 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+<<<<<<< HEAD
     <property name="TODO_SCOPE" value="All Places" />
+=======
+>>>>>>> master
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+=======
+>>>>>>> master
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +76,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.lab2Test">
     <configuration name="lab2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pp2019labs" />
@@ -99,6 +110,11 @@
       </method>
     </configuration>
     <configuration name="lab2Test.test_contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.lab1Test1.transArr">
+    <configuration name="lab1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab1.lab1" />
+>>>>>>> master
       <module name="pp2019labs" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +162,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab1Test1.transArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab1" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab1.lab1Test1" />
+      <option name="METHOD_NAME" value="transArr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.lab2Test" />
         <item itemvalue="JUnit.lab2Test.test_contains" />
         <item itemvalue="JUnit.lab2Test.test_get" />
         <item itemvalue="JUnit.lab2Test.test_add_remove" />
         <item itemvalue="JUnit.lab2Test.test_size" />
+=======
+        <item itemvalue="JUnit.lab1Test1.transArr" />
+        <item itemvalue="Application.lab1" />
+>>>>>>> master
       </list>
     </recent_temporary>
   </component>
