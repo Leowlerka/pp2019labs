@@ -1,16 +1,17 @@
 package telematics.nosova.lab3;
 
+import org.junit.Assert;
+
 import java.util.concurrent.ThreadLocalRandom;
 
-//class Buttom implements Runnable {
-class Buttom{
+class Buttom implements Runnable {
     private final Radio rad;
 
     public Buttom(Radio radio) {
         rad = radio;
     }
 
-    private void onOrOff(Radio rad) {  // Выключать мгновенно?
+    private void onOrOff(Radio rad) {
         if (rad.getNowFreq() == -1 && rad.getInSearch().tryAcquire()) {
             rad.setFreq();
             System.out.println("Radio is on!");
@@ -38,16 +39,18 @@ class Buttom{
         }
     }
 
-    /*
     public void run() {
-        while (true) {
-            scan(rad);
-            try {
-                Thread.sleep(ThreadLocalRandom.current().nextInt(700, 7000));
-            } catch (InterruptedException e1) {
-                e1.printStackTrace();
-            }
-            reset(rad);
+        onOrOff(rad);
+        reset(rad);
+        onOrOff(rad);
+        onOrOff(rad);
+        scan(rad);
+        reset(rad);
+        reset(rad);
+        try {
+            Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 3000));
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
         }
-    */
+    }
 }

@@ -42,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="telematics.nosova.lab3" />
       <recent name="telematics.nosova.lab1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -63,18 +64,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.lab2Test">
-    <configuration name="lab1Test1.transArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EnvironmentTest.runEnvironment">
+    <configuration name="EnvironmentTest.runEnvironment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pp2019labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telematics.nosova.lab1.*" />
+          <option name="PATTERN" value="telematics.nosova.lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="telematics.nosova.lab1" />
-      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab1.lab1Test1" />
-      <option name="METHOD_NAME" value="transArr" />
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab3" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab3.EnvironmentTest" />
+      <option name="METHOD_NAME" value="runEnvironment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,29 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab2Test.test_size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pp2019labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="telematics.nosova.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
-      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
-      <option name="METHOD_NAME" value="test_size" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnvironmentTest.runEnvironment" />
         <item itemvalue="JUnit.lab2Test" />
         <item itemvalue="JUnit.lab2Test.test_contains" />
         <item itemvalue="JUnit.lab2Test.test_get" />
         <item itemvalue="JUnit.lab2Test.test_add_remove" />
-        <item itemvalue="JUnit.lab2Test.test_size" />
       </list>
     </recent_temporary>
   </component>

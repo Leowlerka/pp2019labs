@@ -19,7 +19,7 @@ public class Radio implements Runnable {
         int fre = getNowFreq();
         if (fre!= -1) System.out.println("Radio is playing at a frequency of " + fre);
         try {
-            Thread.sleep(10);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -28,7 +28,7 @@ public class Radio implements Runnable {
 
     private void waitButtom() throws InterruptedException {
         System.out.println("Radio is waiting for a buttom to be pressed!");
-        Thread.sleep(100);  // why?
+        Thread.sleep(500);
     }
 
     public void run() {
