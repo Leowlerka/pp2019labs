@@ -42,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="telematics.nosova.lab4" />
       <recent name="telematics.nosova.lab3" />
       <recent name="telematics.nosova.lab1" />
     </key>
@@ -64,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnvironmentTest.runEnvironment">
+  <component name="RunManager" selected="JUnit.PrimeTest">
     <configuration name="EnvironmentTest.runEnvironment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pp2019labs" />
       <extension name="coverage">
@@ -81,6 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pp2019labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telematics.nosova.lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telematics.nosova.lab4" />
+      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab4.PrimeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lab2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pp2019labs" />
       <extension name="coverage">
@@ -92,22 +108,6 @@
       <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
       <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lab2Test.test_add_remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pp2019labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="telematics.nosova.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="telematics.nosova.lab2" />
-      <option name="MAIN_CLASS_NAME" value="telematics.nosova.lab2.lab2Test" />
-      <option name="METHOD_NAME" value="test_add_remove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeTest" />
         <item itemvalue="JUnit.EnvironmentTest.runEnvironment" />
         <item itemvalue="JUnit.lab2Test" />
         <item itemvalue="JUnit.lab2Test.test_contains" />
         <item itemvalue="JUnit.lab2Test.test_get" />
-        <item itemvalue="JUnit.lab2Test.test_add_remove" />
       </list>
     </recent_temporary>
   </component>
